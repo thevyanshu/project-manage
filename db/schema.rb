@@ -56,7 +56,7 @@ ActiveRecord::Schema.define(version: 2020_01_23_075340) do
   end
 
   create_table "project_threads", force: :cascade do |t|
-    t.string "project_thread_id"
+    t.string "thread_id"
     t.integer "project_id", null: false
     t.integer "user_id", null: false
     t.string "topic"
